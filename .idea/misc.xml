@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BspLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/workspace/bsp-projects/ads-pacing-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="PantsLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/workspace/source" value="PREVIEW" />
+        <entry key="$USER_HOME$/workspace/source/ads-pacing-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/workspace/source/ads-pacing-service/BUILD" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ThriftCompiler">
+    <compilers />
+  </component>
+</project>
