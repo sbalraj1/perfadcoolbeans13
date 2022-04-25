@@ -23,15 +23,24 @@
     work correctly both with client-side routing and a non-root public URL.
     Learn how to configure a non-root public URL by running `npm run build`.
   -->
-  <title>PERF ADS Test Cool Beans purchase page</title>
-  <!-- Twitter universal website tag code -->
-  <script src="//static.ads-twitter.com/oct.js" type="text/javascript"></script>
-  <script type="text/javascript">twttr.conversion.trackPid('o84x6', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+  <title>PERF ADS Test Cool Beans site visit page</title>
+  <script>
+      !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+      },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+      a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+      // Insert Twitter Pixel ID and Standard Event data below
+      twq('init','o8i5y');
+      twq('set', { email_address: 'ctat-ads-api+154@twitter.com', phone_number:'123-4567-8901'})
+      twq('event', 'o8hou', {
+      "value": 10.50,
+      "currency": "INR"
+    });
+  </script>
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div>
-  <h1>Purchase Success!</h1>
+  <h1>Site visi Success!</h1>
   <nav>
     <a href="%PUBLIC_URL%/index">Home</a>
   </nav>
