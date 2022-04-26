@@ -31,7 +31,12 @@
 a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
 // Insert Twitter Pixel ID and Standard Event data below
 twq('init','o89bk');
-twq('track','PageView');
+twq('set', {
+  email_address: 'ctat-ads-api+154@twitter.com',
+  phone_number:'123-4567-8901',
+  external_id:'testabc'
+});
+twq('track', 'SITE_VISIT', { currency: 'USD' });
 </script>
   <!-- End Twitter universal website tag code -->
   </script>
